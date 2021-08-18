@@ -38,7 +38,7 @@ int fun(int n)
 {
 	int fact=1;
 	if(n<=1)
-	return 1;              //recursive
+	return 1;              //recursion 
 	
 	else
      {
