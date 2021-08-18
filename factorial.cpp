@@ -1,7 +1,8 @@
 #include<iostream>
-#define CASE 1 
+#define CASE 3 
 
 using namespace std;
+int fun(int n);
 
 int main()
 {
@@ -18,12 +19,33 @@ int main()
 	
 	
 	#elif CASE==2
-	for(i=n,fact=1;i>=n;i--)
+	for(i=n,fact=1;i>=1;i--)
 	{
 		fact=fact*i;
 	}
 	cout<<"Factorial of "<<n<<" = "<<fact<<endl;
 	
+	#elif CASE==3
+	 fact=fun(n);
+	 
+	 cout<<"Factorial of "<<n<<" = "<<fact<<endl;
+	
 	#endif
 	return 0;
+}
+
+int fun(int n)
+{
+	int fact=1;
+	if(n<=1)
+	return 1;              //recursive
+	
+	else
+     {
+	 
+	 fact=n*fun(n-1);
+	 
+	 return fact;
+     }
+	
 }
