@@ -13,8 +13,9 @@ int main()
 	while(num>0)
 	{
 		r=num%10;
-		num=num/10;
+	
 		rev=rev*10+r;
+		num=num/10;
 	}
 	cout<<"reverse number of "<<storeNum<<" is "<<rev<<endl;
 	
