@@ -27,7 +27,7 @@ int main()
 			 return 0;	
 		}
 	   }
-	      cout<<key<<"is not Found in array"<<endl;
+	      cout<<key<<" is not Found in array"<<endl;
 	return 0;
 	
 }
