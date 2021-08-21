@@ -6,7 +6,7 @@ int main()
 {
 	int num,r,rev=0;
 	int storeNum;
-	cout<<"Enter the naumber \n";
+	cout<<"Enter the number \n";
 	cin>>num;
 	
 	storeNum=num;
@@ -21,7 +21,7 @@ int main()
 	
 	if(rev==storeNum)
 	{
-		cout<<storeNum<<" is palindrome "<<endl;  //if number of reverse is equal to original number then it is called palindrome number
+		cout<<storeNum<<" is palindrome number"<<endl;  //if number of reverse is equal to original number then it is called palindrome number
 	}
 	return 0;
 }
