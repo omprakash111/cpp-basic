@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
 	
-	int A[10]={2,4,9,13,16,17,27,29,34,38};   //we must sort array
+	int A[10]={2,4,9,13,16,17,27,29,34,38};   //we must  in sort array
 	
 	int key,l=0,h=9,mid;
 	
