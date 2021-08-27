@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-	int *p=new int[5];  //Array in heap memory
+	int *p=new int[5];  //Array in heap memory and heap memory only acess throught pointer only
 	cout<<"Enter the 5 value"<<endl;
 	cin>>*p>>*(p+1)>>*(p+2)>>*(p+3)>>*(p+4);
 	
