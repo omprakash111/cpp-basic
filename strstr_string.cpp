@@ -1,6 +1,6 @@
 #include<iostream>
 #include<cstring>
-//strstr(main,sub); occurence of sub string in main string then get the content of a string from that occurence till the end of a string.
+//strstr(main,sub); occurrence of sub string in main string then get the content of a string from that occurrence till the end of a string.
 using namespace std;
 
 int main()
