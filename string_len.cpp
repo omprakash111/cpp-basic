@@ -11,9 +11,9 @@ int main()
 	cout<<"Length of "<<str1<<" "<<strlen(str1);
 	
 	char *s;
-	cin>>s;//om p
+	cin.getline(s,100);//om p
 	
-	cout<<endl<<"Length of "<<s<<" "<<strlen(s);//Length of om 2
+	cout<<endl<<"Length of "<<s<<" "<<strlen(s);//Length of om p 4
 	
 	
 	
