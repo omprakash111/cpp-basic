@@ -13,8 +13,8 @@ int main()
 	
 	cout<<p<<endl;//om p
 	
-	cin.getline(p2,30);//aditya
-	cout<<p2;//aditya
+	cin.getline(p2,30);//aditya kumar
+	cout<<p2;//aditya kumar
 	
 	
 	return 0;
