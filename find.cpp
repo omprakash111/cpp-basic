@@ -9,7 +9,7 @@ int main()
 	cout<<s1.find("are")<<endl;//4 s1.find(str)or char
 	cout<<s1.find('r')<<endl;//5
 	
-	cout<<s1.rfind("are")<<endl;//4       find letter from right and get index
+	cout<<s1.rfind("are")<<endl;//4       find letter from right and get index 
 	
 	cout<<s1.rfind('o')<<endl;//9         
 	cout<<s1.rfind("o")<<endl;//9  
@@ -24,5 +24,8 @@ int main()
 	//cout<<s1.find_first_of()<<endl;
 	  cout<<s1.find_first_of('o',4)<<endl;//9
 		cout<<s1.find_last_of('o',4)<<endl;//1 indexing from last
+		
+		
+		cout<<s1.find_first_of('l')<<endl;//garbage value
 	return 0;
 }
