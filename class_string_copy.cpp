@@ -11,7 +11,7 @@ int main()
 		cout<<s2<<endl;//hello
 		
 			s1.copy(s3,3);
-		cout<<s3<<endl;//hel#*!  it not take null character so no
+		cout<<s3<<endl;//hel#*!  it not take null character so now
 		     s3[3]=NULL;
 		     
 		cout<<s3<<endl;//hel
