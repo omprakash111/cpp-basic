@@ -21,7 +21,7 @@ int main()
 {
 	Rectangle *p;
 	
-	p=new Rectangle();
+	p=new Rectangle;
 	p->l=19;
 	p->b=10;
 	cout<<p->area()<<endl<<p->perimeter();
