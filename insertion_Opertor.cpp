@@ -26,7 +26,7 @@ class complex
 	
 	*/
 	
-	friend ostream & operator<<(ostream &o ,complex & c);
+	friend ostream & operator<<(ostream &o ,complex & c);//friend  void operator<<(ostream &o ,complex & c); if you not want to return
 	
 };
 
