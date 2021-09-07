@@ -56,7 +56,7 @@ int main()
 	#if CASE ==1
 	c3=c1.add(c2);
 	#elif CASE==2
-	c3=c1+c2;
+	c3=c1+c2;//it is wrong c1.oprator+(c2)
 	#endif
 	
 	cout<<c3.getReal()<<" + "<<c3.getImg()<<" i "<<endl;//7+15 i
