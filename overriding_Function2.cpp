@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+//not overriding
 
 class Base 
 {
@@ -32,4 +33,5 @@ int main()
 	Derived d;
 	d.Base::display();//Display  of Base
 	d.Derived::display(5);// Display  of Derived 5
+		d.display(5);// Display  of Derived 5
 }
