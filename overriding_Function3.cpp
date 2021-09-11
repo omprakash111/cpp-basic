@@ -1,11 +1,11 @@
 #include<iostream>
 using namespace std;
-//not overriding
+// overriding
 
 class Base 
 {
 	public:
-		virtual void display()
+	void display()
 		{
 			cout<<" Display  of Base "<<endl;
 			
@@ -29,4 +29,5 @@ int main()
 	
 	Base *p=&d;
 	p->display();// Display  of Derived
+	d.display();
 }
