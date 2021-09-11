@@ -25,8 +25,8 @@ class Derived:public Base
 
 int main()
 {
+	Derived d;
 	
-	
-	Base *p=new Derived();
+	Base *p=&d;
 	p->display();// Display  of Derived
 }
