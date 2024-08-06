@@ -17,4 +17,5 @@ int test::c=0;
 int main()
 {
 	test::show();
+	//
 }
